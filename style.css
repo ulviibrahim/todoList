@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    background-color: #80CBC4;
+    width: 24%;
+    padding: 30px;
+    border: 1px solid #230d44;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.input-group{
+    display: flex;
+}
+.todo-list{
+    width: 100%;
+}
+.todo-list:marker{
+    color: red;
+}
+.new-li{
+    font-weight: 600;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.add-input{
+    padding: 10px;
+    flex: 1;
+    margin-right: 5px;
+    border: 1px solid #0f0f76;
+    border-radius: 5px;
+    color: green;
+    font-size: 16px;
+
+}
+.add-input::placeholder{
+    padding: 0 20px;
+}
+.add-input:focus{
+    outline: none;
+}
+.add-list{
+    width: 56px;
+    height: 35px;
+    background-color: #283593;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 11px;
+cursor: pointer;
+}
+
+i{
+    font-size: 22px;
+    color: green;
+    cursor: pointer;
+}
+.fa-trash{
+    color: red;
+    margin-left: 8px;
+}
